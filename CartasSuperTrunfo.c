@@ -25,8 +25,7 @@ int main() {
 
     printf("Digite o Estado: ");
     scanf("%s", estado1);
-    estado1[2] = '0';
-    
+        
     printf("Digite o número da população da 1ª cidade: ");
     scanf("%d", &populacao1);
     
@@ -48,8 +47,7 @@ int main() {
 
     printf("Digite o Estado: ");
     scanf("%s", estado2);
-    estado2[2] = '0';
-
+    
     printf("Digite o número da população da 2ª cidade: ");
     scanf("%d", &populacao2);
 
@@ -68,8 +66,8 @@ int main() {
     printf("Cidade: %s\n", nome_cidade1);
     printf("Estado: %s\n", estado1);
     printf("população: %d\n", populacao1);
-    printf("Área: %2f km²\n", area1);
-    printf("PIB: %2f\n", pib1);
+    printf("Área: %.2f km²\n", area1);
+    printf("PIB: %.2f\n", pib1);
     printf("Pontos Turísticos: %d\n", pontos_turisticos1);
 
     // Exibição dos Dados da Carta 2 :
@@ -78,9 +76,8 @@ int main() {
     printf("Cidade: %s\n", nome_cidade2);
     printf("Estado: %s\n", estado2);
     printf("população: %d\n", populacao2);
-    printf("Área: %2f km²\n",area2);
-    printf("PIB: %2f\n", pib2);
+    printf("Área: %.2f km²\n", area2);
+    printf("PIB: %.2f\n", pib2);
     printf("Pontos Turísticos: %d\n", pontos_turisticos2);
-
     return 0;
 }
