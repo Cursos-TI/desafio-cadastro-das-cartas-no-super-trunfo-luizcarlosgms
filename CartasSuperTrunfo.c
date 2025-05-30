@@ -42,10 +42,10 @@ int main() {
     printf("Digite o código da 2ª carta: "); 
     scanf("%s",codigo_carta2);
 
-    printf("Digite o nome da 2ª cidade: ");
+    printf("Digite o nome da 2ª cidade: ");//Em caso de cidade como (São Paulo) devem ser escrita juntas Ex.: (São Paulo)
     scanf("%s", nome_cidade2);
 
-    printf("Digite o Estado: ");
+    printf("Digite o Estado (ex: 'SE'): ");//Estado com 2 letras 
     scanf("%s", estado2);
     
     printf("Digite o número da população da 2ª cidade: ");
