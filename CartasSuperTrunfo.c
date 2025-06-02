@@ -79,9 +79,9 @@ int main() {
     printf("Estado: %s\n", estado1);
     printf("População: %d\n", populacao1);
     printf("Área: %.2f km²\n", area1);
-    printf("PIB: %.2f\n", pib1);
-    printf("Densidade Populacional : %.2f\n", densidade_populacional1);
-    printf("PIB Per Capita: %.2f\n", per_capita1);
+    printf("PIB: R$ %.2f \n", pib1);
+    printf("Densidade Populacional : %.2f hab/km²\n", densidade_populacional1);
+    printf("PIB Per Capita: R$ %.2f\n", per_capita1);
     printf("Pontos Turísticos: %d\n", pontos_turisticos1);
 
      
@@ -94,9 +94,9 @@ int main() {
     printf("Estado: %s\n", estado2);
     printf("População: %d\n", populacao2);
     printf("Área: %.2f km²\n", area2);
-    printf("PIB: %.2f\n", pib2);
-    printf("Densidade Populacional: %.2f\n", densidade_populacional2);
-    printf("PIB Per Capita: %.2f\n", per_capita2);
+    printf("PIB: R$ %.2f\n", pib2);
+    printf("Densidade Populacional: %.2f hab/km²\n", densidade_populacional2);
+    printf("PIB Per Capita: R$ %.2f\n", per_capita2);
     printf("Pontos Turísticos: %d\n", pontos_turisticos2);
 
     printf("\n==================================================\n");
